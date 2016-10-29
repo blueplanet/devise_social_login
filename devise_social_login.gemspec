@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = DeviseSocialLogin::VERSION
   s.authors     = ["blueplanet"]
   s.email       = ["erguolinge@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of DeviseSocialLogin."
-  s.description = "TODO: Description of DeviseSocialLogin."
+  s.homepage    = "https://github.com/blueplanet/devise_social_login"
+  s.summary     = "Social login for devise via omniauth."
+  s.description = s.summary
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
