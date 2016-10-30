@@ -2,6 +2,8 @@ module UserFromAuth
   extend ActiveSupport::Concern
   included do
     has_many :social_profiles
+
+    devise :omniauthable, omniauth_providers: [:facebook]
   end
 
   module ClassMethods
