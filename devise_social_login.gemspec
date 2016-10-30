@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "devise"
   s.add_dependency "omniauth-facebook"
+  s.add_development_dependency 'rspec-rails'
 end
