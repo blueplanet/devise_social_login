@@ -2,7 +2,7 @@ module DeviseSocialLogin
   module UserFromAuth
     extend ActiveSupport::Concern
     included do
-      has_many :social_profiles
+      has_many :social_profiles, dependent: :destroy
 
       devise :omniauthable, omniauth_providers: Devise.omniauth_providers
     end
