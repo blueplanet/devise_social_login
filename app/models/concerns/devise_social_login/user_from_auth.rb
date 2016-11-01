@@ -4,7 +4,7 @@ module DeviseSocialLogin
     included do
       has_many :social_profiles
 
-      devise :omniauthable, omniauth_providers: [:facebook]
+      devise :omniauthable, omniauth_providers: Devise.omniauth_providers
     end
 
     module ClassMethods
